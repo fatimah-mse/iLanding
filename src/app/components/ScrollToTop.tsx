@@ -31,6 +31,6 @@ export default function ScrollToTop() {
     }
 
     return (
-        <FontAwesomeIcon icon={faArrowCircleUp} onClick={handleScrollToTop} className={`${showScrollTo ? "translate-x-0" : "translate-x-40"} w-10 2xl:w-14 cursor-pointer rounded-full transition-all duration-300 ease-in-out fixed bottom-6 right-6 z-40 flex justify-center items-center text-[#f15936] text-4xl`}/>
+        <FontAwesomeIcon icon={faArrowCircleUp} onClick={handleScrollToTop} className={`${showScrollTo ? "translate-x-0" : "translate-x-40"} bg-white w-10 2xl:w-14 cursor-pointer rounded-full transition-all duration-300 ease-in-out fixed bottom-6 right-6 z-40 flex justify-center items-center text-[#f15936] text-4xl`}/>
     )
 }
