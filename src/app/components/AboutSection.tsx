@@ -8,7 +8,7 @@ import img_2 from '../images/about-5.webp'
 
 export default function AboutSection() {
     return (
-        <section className='bg-white px-20 max-[1366px]:px-14 max-[768px]:px-5 py-10 flex justify-between items-center flex-wrap' id='about'>
+        <section className='bg-white px-20 max-[1366px]:px-14 max-[768px]:px-5 py-15 flex justify-between items-center flex-wrap' id='about'>
             
             <div className='w-[40%] max-[768px]:w-full'>
                     <h5 className='text-[#0d83fd] text-md tracking-tighter font-bold'>MORE ABOUT US</h5>

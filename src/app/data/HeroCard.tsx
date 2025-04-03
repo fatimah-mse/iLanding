@@ -1,7 +1,7 @@
 import { faAward, faBriefcase, faChartLine, faTrophy } from "@fortawesome/free-solid-svg-icons";
-import { CommonCard } from "../components/CommonCard";
+import { CommonCardType } from "../components/CommonCard";
 
-export const HeroCardData : CommonCard [] = [
+export const HeroCardData : CommonCardType [] = [
     {
         icon: faTrophy,
         title: '3x Won Awards',
