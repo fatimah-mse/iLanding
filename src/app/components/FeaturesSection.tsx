@@ -114,7 +114,7 @@ export default function FeaturesSection() {
             <Slider {...settings} className='my-10'>
                 {ClientsImgs.map((img, index) => {
                     return (
-                        <Image key={index} src={img} alt='client-img' className='grayscale-100 hover:grayscale-0 my-6 h-10 object-contain transition-all duration-200 ease-in-out'/>
+                        <Image key={index} src={img} alt='client-img' className='grayscale-100 hover:grayscale-0 my-6 !w-28 transition-all duration-200 ease-in-out'/>
                     )
                 })}
             </Slider>

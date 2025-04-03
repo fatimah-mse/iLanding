@@ -17,15 +17,15 @@ export const NavLinks :NavLinksType [] = [
         href: '#features'
     },
     {
+        link: 'Testimonials',
+        href: '#testimonials'
+    },
+    {
         link: 'Services',
         href: '#services'
     },
     {
-        link: 'Pricing',
-        href: '#pricing'
-    },
-    {
         link: 'Contact',
-        href: '#contact'
+        href: '/contact'
     }
 ]
